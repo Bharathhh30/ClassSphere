@@ -5,7 +5,7 @@ import { GoFlame } from "react-icons/go";
 import { BsKanban } from 'react-icons/bs';
 import { AiOutlineCalendar } from 'react-icons/ai';
 import { FiGrid } from "react-icons/fi";
-import { FcAlarmClock, FcAreaChart, FcCalendar, FcElectricalSensor, FcFlashOn, FcGraduationCap, FcKindle, FcTodoList, FcWorkflow } from "react-icons/fc";
+import { FcAlarmClock, FcAreaChart, FcBrokenLink, FcCalendar, FcElectricalSensor, FcEngineering, FcFlashOn, FcGraduationCap, FcKindle, FcPortraitMode, FcTodoList, FcWorkflow } from "react-icons/fc";
 
 
 
@@ -68,6 +68,25 @@ export const links1 = [
         {
             name : 'ToDo',
             icon : <FcTodoList />, 
+        },
+    ],
+},
+{
+    title : 'Authentication',
+    links : [
+        {
+            name : 'Login',
+            icon : <FcPortraitMode/>,
+        },
+
+        {
+            name : 'Logout',
+            icon : <FcBrokenLink />,
+        },
+
+        {
+            name : 'Settings',
+            icon : <FcEngineering />, 
         },
     ],
 },
