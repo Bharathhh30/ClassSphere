@@ -13,7 +13,7 @@ function SideBar({activeMenu}) {
                 <div className='flex justify-center items-center'>
                     <Link to = '/' className='items-center gap-3  mt-4 flex text-xl font-inter font-extrabold'>
                         {/* <img src={logo} alt="Website logo" className='h-[100px] w-[100px]'/> */}
-                        <div className='bg-white rounded-lg px-6 py-1'>
+                        <div className='bg-white rounded-xl px-6 py-1'>
                         <span className='font-normal font-poppins text-2xl mt-1 text-blue-400'>ClassSphere</span></div>
                     </Link>
                 </div>
