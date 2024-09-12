@@ -13,6 +13,7 @@ import AdaptEd from './pages/AdaptEd';
 import Analyzer from './pages/Analyzer';
 import ToDo from './pages/ToDo';
 import Landing from './pages/Landing';
+import './App.css';
 
 
 
